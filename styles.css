@@ -36,13 +36,13 @@ p {
 }
 
 .pattern.top {
-  position: relative;
-  right: 30%;
-  top: 5%;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
 }
 .pattern.btm {
-  position: relative;
-  bottom: 70px;
+  position: absolute;
+  top: 50%;
   left: 50%;
 }
 
