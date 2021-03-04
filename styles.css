@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #38b8be;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+strong {
+  font-size: 1.3rem;
+}
+
+small {
+  font-size: 0.75rem;
+  letter-spacing: 1.8px;
+  color: #797979;
+}
+
+span {
+  margin-left: 8px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.pattern.top {
+  position: relative;
+  right: 30%;
+  top: 5%;
+}
+.pattern.btm {
+  position: relative;
+  bottom: 70px;
+  left: 50%;
+}
+
+.profile_container {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 40px rgba(52, 115, 134, 0.541),
+    5px 10px 40px rgba(52, 115, 134, 0.541);
+}
+
+.profile_bg {
+  width: 400px;
+  border-radius: 20px 20px 0 0;
+}
+
+.profile_img {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 100px;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -37%);
+}
+
+.profile_name {
+  margin-top: 60px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.age {
+  font-weight: 100;
+}
+
+.profile_city {
+  margin-top: 10px;
+  color: #797979;
+}
+
+.profile_desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.followers,
+.likes,
+.photos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 50px;
+}
